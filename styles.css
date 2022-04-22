@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    background-image: url(./assets/circle-2.png);
+    background-size: cover;
+}
+nav {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding-right: 100px;
+}
+.top {
+    display: flex;
+    gap: 20px;
+}
+.one {
+    display: flex;
+    gap: 30px;
+    height: 1px;
+}
+.black {
+    width: 400px;
+    height: 300px;
+    margin-right: -500px;
+    margin-bottom: 150px;
+    margin-top: -300px;
+}
+.blue {
+    width: 500px;
+    height: 400px;
+    margin-top: -260px;
+    margin-right: 100px;
+}
+.credit {
+    display: flex;
+    justify-content: flex-end;
+}
+.home {
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding-top: -20px;
+    padding: 5px;
+    margin-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+}
+.shield {
+    height: 30px;
+}
+.circle {
+    position: absolute;
+    height: 40px;
+    margin-top: 18px;
+}
+.two {
+    margin-top: 100px;
+    margin-left: 200px;
+    color: darkblue;
+}
+span {
+    color: #096AED;
+}
+button {
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.get {
+    background-color: #096AED;
+    margin-right: 20px;
+    box-shadow: 5px  5px 7px  #BAC8F5;
+}
+.read {
+    background-color: #BFCEE1;
+}
+.fb {
+    padding-bottom: 50px;
+    margin-top: -1000px;
+}
+h1 {
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 1100px) {
+    body {
+        background-image: none;
+        background-color: #EDF0FC;
+    }
+    .one {
+        margin-top: -10px;
+    }
+    .two {
+        margin-top: -8px;
+        margin-left: -15px;
+    }
+    .black {
+        display: none;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+        margin-top: -25px;
+    }
+    .blue {
+        position: absolute;
+        height: 230px;
+        width: 300px;
+        padding-left: 20px;
+        margin-top: -140px;
+        margin-bottom: 50px;
+    }
+    .circle {
+        margin-left: -20px;
+        height: 30px;
+        margin-top: -10px;
+    }
+    .but {
+        display: flex;
+    }
+    .fb {
+        position: absolute;
+        margin-top: -160px;
+        margin-bottom: -110px;
+    }
+    .twi {
+        position: absolute;
+        margin-top: -100px;
+    }
+    .credit {
+        display: flex;
+        flex-direction: column;
+        padding-top: 360px;
+        margin-left: -45px;
+    }
+    .card {
+        text-align: start;
+    }
+    
+} 
+    
+
